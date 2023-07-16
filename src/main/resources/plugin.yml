@@ -1,0 +1,16 @@
+name: TitlePlus
+version: '${project.version}'
+main: org.ghalbeyou.titleplus.TitlePlus
+author: ArashAmini
+api-version: 1.16
+
+commands:
+  titleplus:
+    description: Sends a title to players.
+    usage: /titleplus <color> <title> <duration> <player(* for all)>
+  stoptitle:
+    description: Stops a title.
+    usage: /stoptitle <title_id or * for all>
+  titlereload:
+    description: Reloads the plugin.
+    usage: /titlereload
